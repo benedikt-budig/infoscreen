@@ -1,5 +1,6 @@
 html {
   overflow: hidden;
+  cursor: none;
 }
 
 .row .col {
