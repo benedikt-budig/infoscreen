@@ -1,0 +1,55 @@
+#worldContainer {
+  height: 341px;
+}
+
+#worldContainer svg {
+  background-color: #5C6BC0; /* Indigo 400 */
+}
+
+.land {
+  fill: #283593; /* Indigo 800 */
+}
+
+.night {
+  fill: #1A237E; /* Indigo 900 */
+  fill-opacity: .6;
+}
+
+#clockContainer {
+  background-color: #283593; /* Indigo 800 */
+  height: 91px;
+}
+
+#clockContainer .mainClock {
+  height: 91px;
+  line-height: 91px;
+  text-align: center;
+  font-size: 4.2rem;
+  color: #F6F6F6;
+}
+
+#clockContainer .additionalClock {
+  height: 91px;
+  text-align: center;
+  padding-top: 3px;
+  font-size: 3.0rem;
+  color: #F6F6F6;
+}
+
+#clockContainer .placeName {
+  position: relative;
+  top: -35px;
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: #F6F6F6;
+}
+
+.mainClock .colon {
+  position: relative;
+  top: -5px;
+}
+
+.additionalClock .colon {
+  position: relative;
+  top: -3px;
+}

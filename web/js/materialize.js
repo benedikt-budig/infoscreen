@@ -1320,7 +1320,7 @@ $(document).ready(function(){
 
         // Update the variables with the new link and content
         $active = $(this);
-        $content = $(this.hash);
+        //$content = $(this.hash);  // TODO: HACK to disable content switching
         $links = $this.find('li.tab a');
 
         // Make the tab active.
