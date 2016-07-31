@@ -20,6 +20,10 @@
   height: 91px;
 }
 
+#clockContainer .row {
+  margin-bottom: 0;
+}
+
 #clockContainer .mainClock {
   height: 91px;
   line-height: 91px;

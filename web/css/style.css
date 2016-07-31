@@ -1,3 +1,7 @@
+html {
+  overflow: hidden;
+}
+
 .row .col {
   padding: 0;
 }
