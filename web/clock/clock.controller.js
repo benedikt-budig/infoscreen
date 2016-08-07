@@ -94,8 +94,8 @@
         vm.additionalClock2Hour = moment().tz('Asia/Shanghai').format('HH');
         vm.additionalClock2Minute = moment().tz('Asia/Shanghai').format('mm');
 
-        vm.additionalClock3Hour = moment().tz('America/New_York').format('HH');
-        vm.additionalClock3Minute = moment().tz('America/New_York').format('mm');
+        vm.additionalClock3Hour = moment().tz('Europe/Berlin').format('HH');
+        vm.additionalClock3Minute = moment().tz('Europe/Berlin').format('mm');
       }
     }
 

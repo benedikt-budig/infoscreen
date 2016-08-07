@@ -1,1 +1,5 @@
-<h1>Weather</h1>
+<div ng-repeat="interval in weatherCtrl.intervals">
+  {{ interval.DateTime | date:'HH' }} Uhr &mdash; {{ interval.Temperature }}°C &mdash; {{ interval.RainFall }} mm &mdash; {{ interval.RainRisk }}%
+  <img ng-src="{{ interval.Image }}">
+<div>
+

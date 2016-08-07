@@ -17,7 +17,8 @@
       // WEATHER STATE =======================================================
       .state('weather', {
           url: '/weather',
-          templateUrl: 'weather/weather.html'      
+          templateUrl: 'weather/weather.html',
+          controller: 'WeatherController as weatherCtrl'  
       })
       
       // CLOCK STATE =========================================================
