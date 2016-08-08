@@ -1,5 +1,22 @@
+<!--
 <div ng-repeat="interval in weatherCtrl.intervals">
   {{ interval.DateTime | date:'HH' }} Uhr &mdash; {{ interval.Temperature }}°C &mdash; {{ interval.RainFall }} mm &mdash; {{ interval.RainRisk }}%
   <img ng-src="{{ interval.Image }}">
 <div>
+-->
 
+<div id="weatherContainer">
+  <div class="row">
+    <div class="col s12">
+      <div class="row">
+				<div class="col s1  weatherIntervals" ng-repeat="interval in weatherCtrl.intervals">
+					<span class="dateTime"> {{ interval.DateTime | date:'HH' }} Uhr </span> <br>
+					<img ng-src="{{ interval.Image }}"> <br>
+					<span class="temperature"> {{ interval.Temperature }}°C </span> <br>
+					<span class="rainFall"> {{ interval.RainFall }} mm </span> <br>
+					<span class="rainRisk"> {{ interval.RainRisk }}% </span>
+				</div>
+      </div>
+    </div>
+  </div>
+</div>
